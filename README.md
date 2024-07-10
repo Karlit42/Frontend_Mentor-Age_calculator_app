@@ -1,5 +1,11 @@
 # Frontend Mentor - Age calculator app solution
 
+## Demo
+
+You can view the live demo of the app deployed on Vercel here:
+
+[Age Calculator App on Vercel](https://age-calculator-app-alpha-swart.vercel.app/)
+
 ## The challenge
 
 Users should be able to:

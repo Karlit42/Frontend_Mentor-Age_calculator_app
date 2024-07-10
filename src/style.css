@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    @apply bg-gray-100 flex justify-center items-center min-h-screen;
+}
+
+section {
+    @apply bg-white max-w-screen-sm rounded-2xl rounded-br-[150px] p-10 shadow-md;
+}
+
+label {
+    @apply uppercase block text-xs my-2 text-gray-500 tracking-widest;
+}
+
+input {
+    @apply border text-2xl font-semibold rounded-md w-28 h-12 p-4 placeholder:text-gray-400 placeholder:font-semibold placeholder:text-xl;
+}
+
+input:focus {
+    @apply border-violet-500 outline-none;
+}
+
+.message {
+    @apply mt-1.5 absolute text-[10px] text-red-600 font-extralight italic;
+}
+
+button {
+    @apply w-16 bg-violet-500 rounded-full p-4;
+}
+
+.result {
+    @apply text-7xl font-extrabold italic;
+}
+
+@screen sm {
+    section {
+        @apply min-w-[36rem]
+    }
+}
+
+@media (max-width: 640px) {
+
+    section {
+        @apply max-w-[350px] rounded-br-[100px] p-6;
+    }
+
+    input {
+      @apply text-xl w-20 p-2;
+    }
+
+    .message {
+        @apply text-[8px];
+    }
+
+    button {
+        @apply w-14;
+    }
+
+    .result {
+        @apply text-5xl;
+    }
+}
+

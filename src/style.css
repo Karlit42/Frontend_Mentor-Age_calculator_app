@@ -15,7 +15,7 @@ label {
     @apply uppercase block text-xs my-2 text-gray-500 tracking-widest;
 }
 
-input {
+.input {
     @apply border text-2xl font-semibold rounded-md w-28 h-12 p-4 placeholder:text-gray-400 placeholder:font-semibold placeholder:text-xl;
 }
 
@@ -27,7 +27,7 @@ input:focus {
     @apply mt-1.5 absolute text-[10px] text-red-600 font-extralight italic;
 }
 
-button {
+.button {
     @apply w-16 bg-violet-500 rounded-full p-4;
 }
 
@@ -47,7 +47,7 @@ button {
         @apply max-w-[350px] rounded-br-[100px] p-6;
     }
 
-    input {
+    .input {
       @apply text-xl w-20 p-2;
     }
 
@@ -55,7 +55,7 @@ button {
         @apply text-[8px];
     }
 
-    button {
+    .button {
         @apply w-14;
     }
 

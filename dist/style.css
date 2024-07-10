@@ -602,7 +602,7 @@ label {
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
-input {
+.input {
   height: 3rem;
   width: 7rem;
   border-radius: 0.375rem;
@@ -611,6 +611,22 @@ input {
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 600;
+}
+
+.input::-moz-placeholder {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.input::placeholder {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 input:focus {
@@ -630,7 +646,7 @@ input:focus {
   color: rgb(220 38 38 / var(--tw-text-opacity));
 }
 
-button {
+.button {
   width: 4rem;
   border-radius: 9999px;
   --tw-bg-opacity: 1;
@@ -658,7 +674,7 @@ button {
     padding: 1.5rem;
   }
 
-  input {
+  .input {
     width: 5rem;
     padding: 0.5rem;
     font-size: 1.25rem;
@@ -669,7 +685,7 @@ button {
     font-size: 8px;
   }
 
-  button {
+  .button {
     width: 3.5rem;
   }
 
